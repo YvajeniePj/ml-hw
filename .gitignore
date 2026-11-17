@@ -1,0 +1,33 @@
+# Course task description file
+5.homework.pdf
+
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ruff and linter cache
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Data directories (per HW requirement: raw data is not committed to git)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model artifacts (binary models should not be committed)
+artifacts/*.pkl
+!artifacts/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
